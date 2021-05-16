@@ -8,3 +8,4 @@ for line in list:
     line=''.join([i for i in line if i.isalpha()])+"\n"
     clean.write(line)
 file.close()
+clear.close()
